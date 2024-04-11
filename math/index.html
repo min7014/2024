@@ -1,30 +1,15 @@
+<!DOCTYPE html>
 <html>
-    <head>
-      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-      <py-env>
-        - bokeh
-        - matplotlib
-        - pandas
-        - scikit-learn
-        - path:
-            - ./my-custom-py-module.py
-      </py-env>
-    </head>
-
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>🦜 Polyglot - Piratical PyScript</title>
+      <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.2/core.css">
+      <script type="module" src="https://pyscript.net/releases/2024.3.2/core.js"></script>
+  </head>
   <body>
-    <py-script> print('Hello world!') </py-script>
-      <h1>Let's plot random numbers</h1>
-    <div id="plot"></div>
-    <py-script output="plot">
-import matplotlib.pyplot as plt
-from data import make_x_and_y
 
-x, y = make_x_and_y(n=1000)
+    <!-- TODO: Fill in our custom application code here... -->
 
-fig, ax = plt.subplots()
-ax.scatter(x, y)
-fig
-    </py-script>
   </body>
 </html>
