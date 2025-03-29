@@ -9,6 +9,7 @@ Library: C:\Users\min\Desktop\Math Wizard\Temp\BurstOutput\tempburstlibs\armeabi
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\min\Desktop\Math Wizard\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\min\Desktop\Math Wizard\Library\Burst
 --output=C:\Users\min\Desktop\Math Wizard\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
